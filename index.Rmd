@@ -1,0 +1,38 @@
+--- 
+title: "Learn to use Git and Gitlab"
+author: "Lingyun Zhang"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+link-citations: yes
+links-as-notes: true
+colorlinks: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Preface {-}
+
+This is my attempt to learn to use Git and Gitlab.
+
+# Key concepts
+
+## Local and remote
+
+This is easy: local means your local machine, and remote means Gitlab (or Github, if this is what use).
+
+
+
+## Branch
+
+
+# Workflow
+
+
+
+# References
+
+ 

@@ -37,6 +37,8 @@ In RStudio, we can create (local and remote) branches by clicking on the button,
 
 How to merge local branches: To do a **merge (locally)**, **git checkout the branch you want to merge INTO**. Then type `git merge <branch>` in Shell where `<branch>` is the branch you want to merge FROM. In RStudio, to check out a branch, just click on a branch name (e.g. 'master') shown under Git button; to start Shell, just click the little arrow button under Git button. 
 
+![Git button picture](./pics/git_pic.PNG)
+
 
 # Workflow
 

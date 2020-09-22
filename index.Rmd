@@ -1,6 +1,6 @@
 --- 
 title: "Learn to use Git and Gitlab"
-author: "Lingyun Zhang"
+author: "Larry Zhang"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook

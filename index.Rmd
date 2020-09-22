@@ -24,7 +24,11 @@ This is my attempt to learn to use Git and Gitlab.
 
 This is easy: local means your local machine, and remote means Gitlab (or Github, if this is what you use). A nice workflow is: firstly create a repository at Gitlab and then click on the **Clone** button there to have the URL; secondly create a project at RStudio and enter the URL when required. 
 
+Two fine points:
 
+- In *Gitlab basics*, Chris wrote about how to set SSH key. After SSH key is set, the pull/push process becomes easier. 
+
+- Note when the project was just created, RStudio shows "no branch". After first push, Rstudio will show "master".
 
 ## Branch
 
@@ -39,5 +43,8 @@ This is easy: local means your local machine, and remote means Gitlab (or Github
 
 - Dudler, R. git - the simple guide
 https://rogerdudler.github.io/git-guide/
+
+- Version Control With Rstudio And Github
+https://aberdeenstudygroup.github.io/studyGroup/lessons/SG-T1-GitHubVersionControl/VersionControl/
 
  

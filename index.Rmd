@@ -22,7 +22,7 @@ This is my attempt to learn to use Git and Gitlab.
 
 ## Local and remote
 
-This is easy: local means your local machine, and remote means Gitlab (or Github, if this is what use).
+This is easy: local means your local machine, and remote means Gitlab (or Github, if this is what you use). A nice workflow is: firstly create a repository at Gitlab and then click on the **Clone** button there to have the URL; secondly create a project at RStudio and enter the URL when required. 
 
 
 
@@ -34,5 +34,10 @@ This is easy: local means your local machine, and remote means Gitlab (or Github
 
 
 # References
+
+- Hansen, C. Gitlab basics. https://gitlabstats-prd/SI/r/documentation/gitlab-basics
+
+- Dudler, R. git - the simple guide
+https://rogerdudler.github.io/git-guide/
 
  

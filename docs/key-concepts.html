@@ -68,7 +68,7 @@
 <li class="chapter" data-level="1.2" data-path="key-concepts.html"><a href="key-concepts.html#branch"><i class="fa fa-check"></i><b>1.2</b> Branch</a></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="workflow.html"><a href="workflow.html"><i class="fa fa-check"></i><b>2</b> Workflow</a></li>
-<li class="chapter" data-level="3" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i><b>3</b> References</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 </ul>
 
       </nav>
@@ -90,7 +90,7 @@
 <h1><span class="header-section-number">1</span> Key concepts</h1>
 <div id="local-and-remote" class="section level2">
 <h2><span class="header-section-number">1.1</span> Local and remote</h2>
-<p>This is easy: local means your local machine, and remote means Gitlab (or Github, if this is what you use). A nice workflow is: firstly create a repository at Gitlab and then click on the <strong>Clone</strong> button there to have the URL; secondly create a project at RStudio and enter the URL when required.</p>
+<p>This is easy: local means your local machine, and remote means Gitlab (or Github, if this is what you use). A nice workflow is: firstly create a repository at Gitlab and then click on the <strong>Clone</strong> button there to have the URL; secondly create a version-controlled (via Git) project at RStudio — you will need to enter the URL when required, finding the details in <em>Gitlab basics</em> (written by Chris Hansen).</p>
 <p>Two fine points:</p>
 <ul>
 <li><p>In <em>Gitlab basics</em>, Chris wrote about how to set SSH key. After SSH key is set, the pull/push process becomes easier.</p></li>
@@ -99,9 +99,9 @@
 </div>
 <div id="branch" class="section level2">
 <h2><span class="header-section-number">1.2</span> Branch</h2>
-<p>Git is a tool for <strong>version control</strong>. One way to implement version control is to use branches.
-In RStudio, we can create (local and remote ) branches by clicking on the button, which is under Git button and has two purple boxes and a white box. After clicking that button, a window will pop up. So, enter a branch name, e.g. Dev, into Branch, then click AddRemote button and enter the branch name for Remote.</p>
-<p>How to merge local branches: To do a <strong>merge (locally)</strong>, <strong>git checkout the branch you want to merge INTO</strong>. Then type <code>git merge &lt;branch&gt;</code> where <branch> is the branch you want to merge FROM.</p>
+<p>Git is a tool for <strong>version control</strong> and <strong>collaboration</strong>. One important way to implement version control and facilitate collaboration is to use branches.
+In RStudio, we can create (local and remote) branches by clicking on the button, which is under Git button and has two purple boxes and a white box. After clicking that button, a window will pop up. So, enter a branch name, e.g. Dev, into Branch, then click AddRemote button and enter the branch name for Remote.</p>
+<p>How to merge local branches: To do a <strong>merge (locally)</strong>, <strong>git checkout the branch you want to merge INTO</strong>. Then type <code>git merge &lt;branch&gt;</code> in Shell where <code>&lt;branch&gt;</code> is the branch you want to merge FROM. In RStudio, to check out a branch, just click on a branch name (e.g. ‘master’) shown under Git button; to start Shell, just click the little arrow button under Git button.</p>
 </div>
 </div>
             </section>

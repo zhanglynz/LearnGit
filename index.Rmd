@@ -26,7 +26,7 @@ This is easy: local means your local machine, and remote means Gitlab (or Github
 
 Two fine points:
 
-- In *Gitlab basics*, Chris wrote about how to set SSH key. After SSH key is set, the pull/push process becomes easier. 
+- In *Gitlab basics*, Chris wrote about how to set SSH key. After SSH key is set, the pull/push process becomes easy. 
 
 - Note when the project was just created, RStudio shows "no branch". After first push, Rstudio will show "master".
 
